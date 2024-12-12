@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Change Password</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="dom.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+        <img src="./images/logo.svg" alt="logo" width="32px" height="32px" />
+        <p>E-Wallet</p>
+      </div>
+      <div>
+        <p>Galuh Wizard</p>
+        <img
+          src="./images/profile.png"
+          alt="profile"
+          width="48px"
+          height="48px"
+        />
+        <img
+          src="./images/dropdown.svg"
+          alt="dropdown"
+          width="24px"
+          height="24px"
+        />
+      </div>
+    </header>
+    <aside>
+      <nav>
+        <ul>
+          <li>
+            <img src="./images/dashboard.svg" alt="dashboard" />
+            <p>Dashboard</p>
+          </li>
+          <li>
+            <img src="./images/send.svg" alt="transfer" />
+            <p>Transfer</p>
+          </li>
+          <li>
+            <img src="./images/history.svg" alt="history" />
+            <p>History</p>
+          </li>
+          <li>
+            <img src="./images/upload.svg" alt="Top Up" />
+            <p>Top Up</p>
+          </li>
+          <li>
+            <img src="./images/user.svg" alt="User" />
+            <p>Profile</p>
+          </li>
+          <li>
+            <img src="./images/logout.svg" alt="Log Out" />
+            <p>Log Out</p>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+    <main>
+      <section class="container-mainheader">
+        <img src="./images/send-blue.svg" alt="" />
+        <p>Profile</p>
+      </section>
+      <section class="container-main">
+        <p>Change Password</p>
+        <form>
+          <label for="change_p">Existing Password</label>
+          <div>
+            <img
+              src="./images/password.svg"
+              alt="Password"
+              width="12.33px"
+              height="12.33px"
+            />
+            <input
+              type="password"
+              name="change_p"
+              id="change_p"
+              placeholder="Change Password"
+            />
+          </div>
+          <label for="new_p">New Password</label>
+          <div>
+            <img
+              src="./images/password.svg"
+              alt="Password"
+              width="12.33px"
+              height="12.33px"
+            />
+            <input
+              type="password"
+              name="new_p"
+              id="new_p"
+              placeholder="New Password"
+            />
+          </div>
+          <label for="confirm_p">Confirm Password</label>
+          <div>
+            <img
+              src="./images/password.svg"
+              alt="Password"
+              width="12.33px"
+              height="12.33px"
+            />
+            <input
+              type="confirm_p"
+              name="confirm_p"
+              id="confirm_p"
+              placeholder="Confirm Password"
+            />
+          </div>
+          <button type="button">Submit</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
