@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom Insert Element</title>
+    <script src="dom.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <input type="number" />
+      <button type="button" onclick="addList()">Submit</button>
+      <button type="button" onclick="resetList()">Reset</button>
+      <ul>
+        <li>Default</li>
+      </ul>
+    </div>
+    <div class="text-container">
+      <p class="text">Initial Text</p>
+    </div>
+    <div class="btn-collection">
+      <button type="button" onclick="insert('beforebegin')">
+        before begin
+      </button>
+      <button type="button" onclick="insert('afterbegin')">after begin</button>
+      <button type="button" onclick="insert('beforeend')">before end</button>
+      <button type="button" onclick="insert('afterend')">after end</button>
+    </div>
+  </body>
+</html>
